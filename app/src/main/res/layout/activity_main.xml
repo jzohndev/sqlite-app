@@ -71,11 +71,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Data"
-        android:layout_below="@+id/textView2"
-        android:layout_alignRight="@+id/textView3"
-        android:layout_alignEnd="@+id/textView3"
-        android:layout_marginTop="37dp"
-        android:id="@+id/button_add" />
+        android:id="@+id/button_add"
+        android:layout_marginTop="263dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
 
     <Button
         android:layout_width="wrap_content"
@@ -85,4 +85,43 @@
         android:layout_alignTop="@+id/button_add"
         android:layout_toRightOf="@+id/button_add"
         android:layout_toEndOf="@+id/button_add" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update"
+        android:id="@+id/button_update"
+        android:layout_alignTop="@+id/button_view"
+        android:layout_toRightOf="@+id/button_view"
+        android:layout_toEndOf="@+id/button_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="id"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="31dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4_id"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/editText3_Marks"
+        android:layout_alignEnd="@+id/editText3_Marks"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:id="@+id/button_delete"
+        android:layout_below="@+id/button_add"
+        android:layout_alignLeft="@+id/button_add"
+        android:layout_alignStart="@+id/button_add" />
 </RelativeLayout>
